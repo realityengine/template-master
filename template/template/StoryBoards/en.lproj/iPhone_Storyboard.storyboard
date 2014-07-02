@@ -29,19 +29,13 @@
                                 </items>
                             </navigationBar>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gwz-xd-vpm" customClass="CSAnimationView">
-                                <rect key="frame" x="82" y="63" width="140" height="140"/>
+                                <rect key="frame" x="96" y="94" width="128" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Tg-VA-F3T">
-                                        <rect key="frame" x="49" y="0.0" width="42" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
                                 <color key="backgroundColor" red="0.5411764979" green="0.63137257099999999" blue="0.69411766529999996" alpha="1" colorSpace="deviceRGB"/>
                                 <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="64"/>
+                                    </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="string" keyPath="type" value="bounceLeft"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="delay">
                                         <real key="value" value="0.10000000000000001"/>
@@ -52,11 +46,11 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bJI-Zj-Ppd" customClass="CSAnimationView">
-                                <rect key="frame" x="0.0" y="211" width="320" height="455"/>
+                                <rect key="frame" x="0.0" y="320" width="320" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BrQ-ek-M60" customClass="CSAnimationView">
-                                        <rect key="frame" x="10" y="10" width="300" height="73"/>
+                                        <rect key="frame" x="10" y="16" width="300" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.92549026010000002" green="0.93725496529999996" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
                                         <userDefinedRuntimeAttributes>

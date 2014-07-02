@@ -20,6 +20,11 @@
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bXE-rB-mda">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.270588249" green="0.32941177490000001" blue="0.4156863093" alpha="1" colorSpace="deviceRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
+                                    <color key="textColor" red="0.5411764979" green="0.63137257099999999" blue="0.69411766529999996" alpha="1" colorSpace="deviceRGB"/>
+                                </textAttributes>
                                 <items>
                                     <navigationItem title="Home" id="eEn-9u-nRA"/>
                                 </items>
@@ -38,17 +43,18 @@
             </objects>
             <point key="canvasLocation" x="155" y="-14"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar Controller - Template-->
         <scene sceneID="xkc-u5-zYy">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1aD-ba-Tpk" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tabBarController definesPresentationContext="YES" id="fvf-vM-a3V" sceneMemberID="viewController">
+                <tabBarController title="Template" definesPresentationContext="YES" id="fvf-vM-a3V" sceneMemberID="viewController">
                     <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="yLs-TB-mZ9">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.270588249" green="0.32941177490000001" blue="0.4156863093" alpha="1" colorSpace="deviceRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="lHB-2m-kfr" kind="relationship" relationship="viewControllers" id="xU8-7v-RDr"/>
@@ -82,9 +88,14 @@
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2xw-Zg-DQM">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.270588249" green="0.32941177490000001" blue="0.4156863093" alpha="1" colorSpace="deviceRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
+                                    <color key="textColor" red="0.5411764979" green="0.63137257099999999" blue="0.69411766529999996" alpha="1" colorSpace="deviceRGB"/>
+                                </textAttributes>
                                 <items>
                                     <navigationItem title="About" id="2KH-DW-c61">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="ocH-so-nty"/>
+                                        <barButtonItem key="backBarButtonItem" image="iconBack" id="M7l-23-tKv"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -97,6 +108,9 @@
             <point key="canvasLocation" x="155" y="639"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="iconBack" width="32" height="32"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

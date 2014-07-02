@@ -6,8 +6,6 @@
 //  Copyright (c) 2014 realityengine. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
-
 @interface AboutViewController : UIViewController
 
 @end

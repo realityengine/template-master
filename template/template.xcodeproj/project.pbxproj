@@ -20,7 +20,8 @@
 		BF159AE41960DBEB007C61A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF159AE21960DBEB007C61A7 /* InfoPlist.strings */; };
 		BF159AE61960DBEB007C61A7 /* templateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF159AE51960DBEB007C61A7 /* templateTests.m */; };
 		BFB0FA0B196387DA00EE494D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB0FA0A196387DA00EE494D /* HomeViewController.m */; };
-		BFB0FA0E1963883200EE494D /* iPhone_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB0FA0D1963883200EE494D /* iPhone_Storyboard.storyboard */; };
+		BFB0FA1219639D1800EE494D /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB0FA1119639D1800EE494D /* AboutViewController.m */; };
+		BFB0FA131963A27D00EE494D /* iPhone_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB0FA151963A27D00EE494D /* iPhone_Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +53,9 @@
 		BF159AE51960DBEB007C61A7 /* templateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = templateTests.m; sourceTree = "<group>"; };
 		BFB0FA0A196387DA00EE494D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		BFB0FA0C196387ED00EE494D /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		BFB0FA0D1963883200EE494D /* iPhone_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iPhone_Storyboard.storyboard; path = template/StoryBoards/iPhone_Storyboard.storyboard; sourceTree = "<group>"; };
+		BFB0FA1019639D1800EE494D /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		BFB0FA1119639D1800EE494D /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		BFB0FA141963A27D00EE494D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/iPhone_Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +157,8 @@
 		BFB0FA091963875200EE494D /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				BFB0FA1019639D1800EE494D /* AboutViewController.h */,
+				BFB0FA1119639D1800EE494D /* AboutViewController.m */,
 				BFB0FA0C196387ED00EE494D /* HomeViewController.h */,
 				BFB0FA0A196387DA00EE494D /* HomeViewController.m */,
 			);
@@ -163,7 +168,7 @@
 		BFB0FA0F1963892400EE494D /* StoryBoard */ = {
 			isa = PBXGroup;
 			children = (
-				BFB0FA0D1963883200EE494D /* iPhone_Storyboard.storyboard */,
+				BFB0FA151963A27D00EE494D /* iPhone_Storyboard.storyboard */,
 			);
 			name = StoryBoard;
 			path = ..;
@@ -246,7 +251,7 @@
 			files = (
 				BF159ACB1960DBE9007C61A7 /* InfoPlist.strings in Resources */,
 				BF159AD31960DBEA007C61A7 /* Images.xcassets in Resources */,
-				BFB0FA0E1963883200EE494D /* iPhone_Storyboard.storyboard in Resources */,
+				BFB0FA131963A27D00EE494D /* iPhone_Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +272,7 @@
 			files = (
 				BF159AD11960DBE9007C61A7 /* AppDelegate.m in Sources */,
 				BF159ACD1960DBE9007C61A7 /* main.m in Sources */,
+				BFB0FA1219639D1800EE494D /* AboutViewController.m in Sources */,
 				BFB0FA0B196387DA00EE494D /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +310,15 @@
 				BF159AE31960DBEB007C61A7 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFB0FA151963A27D00EE494D /* iPhone_Storyboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB0FA141963A27D00EE494D /* en */,
+			);
+			name = iPhone_Storyboard.storyboard;
+			path = template/StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

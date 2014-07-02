@@ -7,14 +7,13 @@
         <!--Home View Controller - Home-->
         <scene sceneID="h2g-j6-hVk">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="epn-3D-Jxf" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="lHB-2m-kfr" customClass="HomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="VLS-Zd-wNQ"/>
                         <viewControllerLayoutGuide type="bottom" id="6RY-Ew-QDQ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ocP-04-pcq">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bXE-rB-mda">
@@ -29,24 +28,18 @@
                                     <navigationItem title="Home" id="eEn-9u-nRA"/>
                                 </items>
                             </navigationBar>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oxD-Kt-qzV">
-                                <rect key="frame" x="139" y="419" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.270588249" green="0.32941177490000001" blue="0.4156863093" alpha="1" colorSpace="deviceRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="U7r-oj-bJG"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="iconHome" id="U7r-oj-bJG"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="epn-3D-Jxf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="155" y="-14"/>
         </scene>
         <!--Tab Bar Controller - Template-->
         <scene sceneID="xkc-u5-zYy">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1aD-ba-Tpk" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tabBarController title="Template" definesPresentationContext="YES" id="fvf-vM-a3V" sceneMemberID="viewController">
                     <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
@@ -61,24 +54,24 @@
                         <segue destination="Znm-VU-crH" kind="relationship" relationship="viewControllers" id="eNo-YN-Jlb"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1aD-ba-Tpk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-379" y="313"/>
         </scene>
         <!--About View Controller - About-->
         <scene sceneID="gYf-Fr-AsW">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IRv-2t-r4a" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Znm-VU-crH" customClass="AboutViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MFf-w3-YJf"/>
                         <viewControllerLayoutGuide type="bottom" id="uwJ-1p-6im"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="zgI-Oo-rrs">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fGd-eo-7jf">
-                                <rect key="frame" x="20" y="44" width="280" height="504"/>
+                                <rect key="frame" x="20" y="44" width="280" height="416"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <string key="text">ABOUT                                                                                                                                                                                                                                                                                                                                                                        Template Build 1.0.0                                                            Developed by Frank Diaz</string>
                                 <color key="textColor" red="0.5411764979" green="0.63137257099999999" blue="0.69411766529999996" alpha="1" colorSpace="deviceRGB"/>
@@ -102,18 +95,21 @@
                         </subviews>
                         <color key="backgroundColor" red="0.270588249" green="0.32941177490000001" blue="0.4156863093" alpha="1" colorSpace="deviceRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="About" id="yxg-hm-27R"/>
+                    <tabBarItem key="tabBarItem" title="About" image="iconAbout" id="yxg-hm-27R"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IRv-2t-r4a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="155" y="639"/>
         </scene>
     </scenes>
     <resources>
+        <image name="iconAbout" width="30" height="30"/>
         <image name="iconBack" width="32" height="32"/>
+        <image name="iconHome" width="30" height="30"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>

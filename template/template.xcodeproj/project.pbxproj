@@ -19,6 +19,8 @@
 		BF159ADC1960DBEA007C61A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF159AC41960DBE9007C61A7 /* UIKit.framework */; };
 		BF159AE41960DBEB007C61A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF159AE21960DBEB007C61A7 /* InfoPlist.strings */; };
 		BF159AE61960DBEB007C61A7 /* templateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF159AE51960DBEB007C61A7 /* templateTests.m */; };
+		BFB0FA0B196387DA00EE494D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB0FA0A196387DA00EE494D /* HomeViewController.m */; };
+		BFB0FA0E1963883200EE494D /* iPhone_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB0FA0D1963883200EE494D /* iPhone_Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		BF159AE11960DBEB007C61A7 /* templateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "templateTests-Info.plist"; sourceTree = "<group>"; };
 		BF159AE31960DBEB007C61A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF159AE51960DBEB007C61A7 /* templateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = templateTests.m; sourceTree = "<group>"; };
+		BFB0FA0A196387DA00EE494D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		BFB0FA0C196387ED00EE494D /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		BFB0FA0D1963883200EE494D /* iPhone_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iPhone_Storyboard.storyboard; path = template/StoryBoards/iPhone_Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,8 @@
 			children = (
 				BF159ACF1960DBE9007C61A7 /* AppDelegate.h */,
 				BF159AD01960DBE9007C61A7 /* AppDelegate.m */,
+				BFB0FA0F1963892400EE494D /* StoryBoard */,
+				BFB0FA091963875200EE494D /* ViewControllers */,
 				BF159AD21960DBEA007C61A7 /* Images.xcassets */,
 				BF159AC71960DBE9007C61A7 /* Supporting Files */,
 			);
@@ -142,6 +149,24 @@
 				BF159AE21960DBEB007C61A7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFB0FA091963875200EE494D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFB0FA0C196387ED00EE494D /* HomeViewController.h */,
+				BFB0FA0A196387DA00EE494D /* HomeViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BFB0FA0F1963892400EE494D /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				BFB0FA0D1963883200EE494D /* iPhone_Storyboard.storyboard */,
+			);
+			name = StoryBoard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +246,7 @@
 			files = (
 				BF159ACB1960DBE9007C61A7 /* InfoPlist.strings in Resources */,
 				BF159AD31960DBEA007C61A7 /* Images.xcassets in Resources */,
+				BFB0FA0E1963883200EE494D /* iPhone_Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +267,7 @@
 			files = (
 				BF159AD11960DBE9007C61A7 /* AppDelegate.m in Sources */,
 				BF159ACD1960DBE9007C61A7 /* main.m in Sources */,
+				BFB0FA0B196387DA00EE494D /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +466,7 @@
 				BF159AEB1960DBEB007C61A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF159AEC1960DBEB007C61A7 /* Build configuration list for PBXNativeTarget "templateTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +475,7 @@
 				BF159AEE1960DBEB007C61A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

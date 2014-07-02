@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bXE-rB-mda">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bXE-rB-mda">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="barTintColor" red="0.270588249" green="0.32941177490000001" blue="0.4156863093" alpha="1" colorSpace="deviceRGB"/>
@@ -30,6 +30,11 @@
                             </navigationBar>
                         </subviews>
                         <color key="backgroundColor" red="0.270588249" green="0.32941177490000001" blue="0.4156863093" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="bXE-rB-mda" firstAttribute="leading" secondItem="ocP-04-pcq" secondAttribute="leading" id="EN9-4g-bEn"/>
+                            <constraint firstItem="bXE-rB-mda" firstAttribute="top" secondItem="ocP-04-pcq" secondAttribute="top" id="PWx-U6-BBQ"/>
+                            <constraint firstAttribute="trailing" secondItem="bXE-rB-mda" secondAttribute="trailing" id="Vfe-NZ-LpV"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="iconHome" id="U7r-oj-bJG"/>
                 </viewController>
@@ -70,7 +75,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fGd-eo-7jf">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fGd-eo-7jf">
                                 <rect key="frame" x="20" y="44" width="280" height="416"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <string key="text">ABOUT                                                                                                                                                                                                                                                                                                                                                                        Template Build 1.0.0                                                            Developed by Frank Diaz</string>
@@ -78,7 +83,7 @@
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardAppearance="alert"/>
                             </textView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2xw-Zg-DQM">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2xw-Zg-DQM">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="barTintColor" red="0.270588249" green="0.32941177490000001" blue="0.4156863093" alpha="1" colorSpace="deviceRGB"/>
@@ -94,6 +99,15 @@
                             </navigationBar>
                         </subviews>
                         <color key="backgroundColor" red="0.270588249" green="0.32941177490000001" blue="0.4156863093" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="2xw-Zg-DQM" firstAttribute="top" secondItem="zgI-Oo-rrs" secondAttribute="top" id="64w-gd-7Dt"/>
+                            <constraint firstItem="2xw-Zg-DQM" firstAttribute="centerX" secondItem="fGd-eo-7jf" secondAttribute="centerX" id="Ml2-yZ-0hk"/>
+                            <constraint firstItem="fGd-eo-7jf" firstAttribute="top" secondItem="2xw-Zg-DQM" secondAttribute="bottom" id="RfH-2r-hY5"/>
+                            <constraint firstItem="2xw-Zg-DQM" firstAttribute="leading" secondItem="zgI-Oo-rrs" secondAttribute="leading" id="aZC-Wa-xmA"/>
+                            <constraint firstAttribute="trailing" secondItem="fGd-eo-7jf" secondAttribute="trailing" constant="20" symbolic="YES" id="bji-Wp-Hkc"/>
+                            <constraint firstItem="fGd-eo-7jf" firstAttribute="leading" secondItem="zgI-Oo-rrs" secondAttribute="leading" constant="20" symbolic="YES" id="cfa-YN-Fgg"/>
+                            <constraint firstAttribute="bottom" secondItem="fGd-eo-7jf" secondAttribute="bottom" constant="20" symbolic="YES" id="sPg-x6-zrM"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="About" image="iconAbout" id="yxg-hm-27R"/>
                 </viewController>

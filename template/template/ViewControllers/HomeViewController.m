@@ -7,6 +7,7 @@
 //
 
 #import "HomeViewController.h"
+#import "CSAnimationView.h"
 
 @interface HomeViewController ()
 

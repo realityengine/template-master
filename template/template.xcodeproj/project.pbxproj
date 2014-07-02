@@ -22,6 +22,7 @@
 		BFB0FA0B196387DA00EE494D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB0FA0A196387DA00EE494D /* HomeViewController.m */; };
 		BFB0FA1219639D1800EE494D /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB0FA1119639D1800EE494D /* AboutViewController.m */; };
 		BFB0FA131963A27D00EE494D /* iPhone_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB0FA151963A27D00EE494D /* iPhone_Storyboard.storyboard */; };
+		BFC63DC01963EF74001ADD9C /* navAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC63DBF1963EF74001ADD9C /* navAudio.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		BFB0FA1019639D1800EE494D /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		BFB0FA1119639D1800EE494D /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		BFB0FA141963A27D00EE494D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/iPhone_Storyboard.storyboard; sourceTree = "<group>"; };
+		BFC63DBE1963EF74001ADD9C /* navAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = navAudio.h; path = template/Classes/navAudio.h; sourceTree = SOURCE_ROOT; };
+		BFC63DBF1963EF74001ADD9C /* navAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = navAudio.m; path = template/Classes/navAudio.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,7 @@
 			children = (
 				BF159ACF1960DBE9007C61A7 /* AppDelegate.h */,
 				BF159AD01960DBE9007C61A7 /* AppDelegate.m */,
+				BFC63DC11963EFAB001ADD9C /* Classes */,
 				BFB0FA0F1963892400EE494D /* StoryBoard */,
 				BFB0FA091963875200EE494D /* ViewControllers */,
 				BF159AD21960DBEA007C61A7 /* Images.xcassets */,
@@ -172,6 +176,16 @@
 			);
 			name = StoryBoard;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		BFC63DC11963EFAB001ADD9C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BFC63DBE1963EF74001ADD9C /* navAudio.h */,
+				BFC63DBF1963EF74001ADD9C /* navAudio.m */,
+			);
+			name = Classes;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC63DC01963EF74001ADD9C /* navAudio.m in Sources */,
 				BF159AD11960DBE9007C61A7 /* AppDelegate.m in Sources */,
 				BF159ACD1960DBE9007C61A7 /* main.m in Sources */,
 				BFB0FA1219639D1800EE494D /* AboutViewController.m in Sources */,
